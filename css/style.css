@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.mainSec{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/pexels-jopwell-2422280.jpg);
+    background-size: cover;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.opacity{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    position: absolute;
+}
+
+.contentDiv{
+    /* top: 0; */
+    position: absolute;
+    /* height: 100vh; */
+    width: 50%;
+}
+
+.contentDiv button{
+    width: 100%;
+}
+
+.contentDiv a{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.homeSec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.allUsers{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid gainsboro;
+}
+
+.allChats{
+    width: 70%;
+    height: 100vh;
+    position: relative;
+ 
+}
+
+
+.userCont{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.userCont:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+
+
+.userProfile{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+.userCont p{
+    margin-top: 0;
+    padding-top: 0;
+    color: gray;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.userCont h6{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: black;
+}
+
+
+.receivedUser{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
+.chatBox{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: 1px solid gray;
+    padding-top: 50px;
+}
+
+
+.thechatTo{
+    background-color: greenyellow;
+    right: 0;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    border-radius: 20px;
+}
+.thechatFrom{
+    background-color: rgba(128, 128, 128, 0.244);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 20px;
+}
