@@ -1,3 +1,3 @@
 # WhatsAppClone
-WhatsApp clone using JavaScript and fireba
+WhatsApp clone using JavaScript and firebas
 
